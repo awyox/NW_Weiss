@@ -1,7 +1,7 @@
 # NW_Weiss
 
 # Protokol
-  # ADDRESS         NETWORK      INTERFACE
+   ADDRESS         NETWORK      INTERFACE
 EDGE1
   - Ether2 = 192.168.23.0     /24
   - Wireguard1 = 172.17.72.0  /24
