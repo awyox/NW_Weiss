@@ -26,4 +26,8 @@ EDGE1
 
 SW2
 
-'''Show'''
+`show ip interface brief`   
+![grafik](https://user-images.githubusercontent.com/123244964/216193915-f1f12d43-0025-4790-ae9a-2620e183df42.png)   
+
+`interface g3/0`   
+![grafik](https://user-images.githubusercontent.com/123244964/216194975-e74e29aa-00d5-47d8-a6d7-10163fa3728f.png)
