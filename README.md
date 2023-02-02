@@ -20,6 +20,11 @@ SW2
 
 SW3
 `show ip interface brief`   
+![grafik](https://user-images.githubusercontent.com/123244964/216317866-544917e6-2254-4036-9803-1f1234208b5f.png)   
+`interface g3/0`  
+`interface g3/1`  
+![grafik](https://user-images.githubusercontent.com/123244964/216318030-a435fd68-0c3d-40df-aeb6-e6369f4ab57e.png)   
+
 
 SW4   
 `show ip interface brief`   
