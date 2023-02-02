@@ -18,7 +18,7 @@ SW2
 `interface g3/0`   
 ![grafik](https://user-images.githubusercontent.com/123244964/216194975-e74e29aa-00d5-47d8-a6d7-10163fa3728f.png)   
 
-SW3
+SW3   
 `show ip interface brief`   
 ![grafik](https://user-images.githubusercontent.com/123244964/216317866-544917e6-2254-4036-9803-1f1234208b5f.png)   
 `interface g3/0`  
