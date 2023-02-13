@@ -1,7 +1,14 @@
-# NW_Weiss
+# NW_Weiss_Ruiz
+#Vorgehen   
+Von Edge1 rückwers versuchen auswärts (8.8.8.8) zu Pingen.   
+
+Core1   
+OK
 
 R1   
 `ip route add gateway=10.105.64.5. dst-address=10.105.64.1/30`   
+
+R2
 
 R3   
 `ip default-gateway 10.105.64.13`   
@@ -18,6 +25,14 @@ SW2
 `interface g3/0`   
 ![grafik](https://user-images.githubusercontent.com/123244964/216194975-e74e29aa-00d5-47d8-a6d7-10163fa3728f.png)   
 
+
+`configure terminal`   
+`interface g3/0`(g3/1, g3/2, g3/1, g2/1)   
+`switchport mode access`   
+`switchport access vlan 110`    
+`exit`   
+
+
 SW3   
 `show ip interface brief`   
 ![grafik](https://user-images.githubusercontent.com/123244964/216317866-544917e6-2254-4036-9803-1f1234208b5f.png)   
@@ -33,6 +48,19 @@ SW4
 `interface g3/0`   
 `interface g3/1`   
 ![grafik](https://user-images.githubusercontent.com/123244964/216200504-826f7f08-7818-4329-8d08-49b7b5ca0626.png)   
+
+`configure terminal`   
+`interface g3/1`(g3/1, g3/0, g0/0)   
+`switchport mode access`   
+`switchport access vlan 110`    
+`exit`   
+
+SW10 
+`configure terminal`   
+`interface g0/0`  
+`switchport mode access`   
+`switchport access vlan 110`    
+`exit`   
 
 Server   
 `sudo apt-get update`   
