@@ -55,7 +55,7 @@ SW4
 `switchport access vlan 110`    
 `exit`   
 
-SW10 
+SW10    
 `configure terminal`   
 `interface g0/0`  
 `switchport mode access`   
